@@ -37,9 +37,9 @@ void setup() {
 
 	void loop() {
   // put your main code here, to run repeatedly:
-  int tiempo_rojo = 5000; ( 5 segundos )
-  int tiempo_ambar =2000; ( 2 segundos )
-  int tiempo_verde = 5000; ( 5 segundos )
+  int tiempo_rojo =  5000; // ( 5 segundos )
+  int tiempo_ambar = 1000; // ( 1 segundo )
+  int tiempo_verde = 5000; // ( 5 segundos )
 
   digitalWrite (pin_rojo, HIGH);
   delay(tiempo_rojo);
